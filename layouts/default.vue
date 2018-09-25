@@ -40,6 +40,15 @@
       </v-btn>
       <v-toolbar-title v-text="title"></v-toolbar-title>
       <v-spacer></v-spacer>
+        <v-toolbar-items class="hidden-sm-and-down">
+          <v-btn flat nuxt to="/">CANAL43</v-btn>
+          <v-btn flat nuxt to="/calendrier">Calendrier</v-btn>
+          <v-btn flat nuxt to="/programmation">Programmation</v-btn>
+          <v-btn flat nuxt to="/infos">Infos</v-btn>
+          <v-btn flat nuxt to="/billetterie">Billetterie</v-btn>
+          <v-btn flat nuxt to="/partenaires">Partenaires</v-btn>
+          <v-btn flat nuxt to="/contact">Contact</v-btn>
+        </v-toolbar-items>
     </v-toolbar>
     <v-content>
       <v-container>
@@ -60,7 +69,7 @@
         drawer: true,
         fixed: false,
         items: [
-          { icon: 'apps', title: 'Welcome', to: '/' },
+          { icon: 'apps', title: 'CANAL43', to: '/' },
           { icon: 'calendar_today', title: 'Calendrier', to: '/calendrier' },
           { icon: 'view_list', title: 'Programmation', to: '/programmation' },
           { icon: 'info', title: 'Infos Pratiques', to: '/infos' },
@@ -71,7 +80,7 @@
         miniVariant: false,
         right: true,
         rightDrawer: false,
-        title: 'canal43'
+        title: 'CANAL43'
       }
     }
   }

@@ -1,32 +1,10 @@
 <template>
-  <v-carousel>
-    <v-carousel-item
-      v-for="(item,i) in items"
-      :key="i"
-      :src="item.src"
-    ></v-carousel-item>
-  </v-carousel>
+  <v-layout column justify-center align-center>
+    <v-flex xs12 sm8 md6>
+      <div class="text-xs-center">
+        <img src="/v.png" alt="logo CANAL43" class="mb-5" />
+      </div>
+      <h3 class="display-3">Un peu de patience...</h3>
+    </v-flex>
+  </v-layout>
 </template>
-
-<script>
-  export default {
-    data () {
-      return {
-        items: [
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg'
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg'
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
-          }
-        ]
-      }
-    }
-  }
-</script>

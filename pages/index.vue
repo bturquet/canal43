@@ -2,29 +2,34 @@
   <v-layout column justify-center align-center>
     <v-flex xs12 sm8 md6>
       <div class="text-xs-center">
-        <img src="/v.png" alt="Vuetify.js" class="mb-5" />
+        <iframe width="620" height="315"
+          src="https://www.youtube.com/embed/dBNKhHGQTk0">
+        </iframe>
       </div>
-      <v-card>
-        <v-card-title class="headline">Welcome to the Vuetify + Nuxt.js template</v-card-title>
-        <v-card-text>
-          <p>Vuetify is a progressive Material Design component framework for Vue.js. It was designed to empower developers to create amazing applications.</p>
-          <p>For more information on Vuetify, check out the <a href="https://vuetifyjs.com" target="_blank">documentation</a>.</p>
-          <p>If you have questions, please join the official <a href="https://chat.vuetifyjs.com/" target="_blank" title="chat">discord</a>.</p>
-          <p>Find a bug? Report it on the github <a href="https://github.com/vuetifyjs/vuetify/issues" target="_blank" title="contribute">issue board</a>.</p>
-          <p>Thank you for developing with Vuetify and I look forward to bringing more exciting features in the future.</p>
-          <div class="text-xs-right">
-            <em><small>&mdash; John Leider</small></em>
-          </div>
-          <hr class="my-3">
-          <a href="https://nuxtjs.org/" target="_blank">Nuxt Documentation</a>
-          <br>
-          <a href="https://github.com/nuxt/nuxt.js" target="_blank">Nuxt GitHub</a>
-        </v-card-text>
-        <v-card-actions>
-          <v-spacer></v-spacer>
-          <v-btn color="primary" flat nuxt to="/inspire">Continue</v-btn>
-        </v-card-actions>
-      </v-card>
+      <v-jumbotron>
+        <v-container fill-height>
+          <v-layout align-center>
+            <v-flex>
+              <h3 class="display-3">CANAL43</h3>
+
+              <span class="subheading">Le rendez-vous musical du Champ de Mars - Lille, les 14 et 15 décembre 2018.</span>
+
+              <v-divider class="my-3"></v-divider>
+
+              <div class="title mb-3">Plus d'infos !</div>
+
+              <v-btn
+                class="mx-0"
+                color="primary"
+                large
+                nuxt to="/infos"
+              >
+                PLUS
+              </v-btn>
+            </v-flex>
+          </v-layout>
+        </v-container>
+      </v-jumbotron>
     </v-flex>
   </v-layout>
 </template>
