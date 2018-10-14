@@ -1,6 +1,6 @@
-# canal43_2
+# CENTRAL43
 
-> canal43festival
+> central43festival
 
 ## Build Setup
 

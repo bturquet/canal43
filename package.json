@@ -1,7 +1,7 @@
 {
-  "name": "canal43festival",
+  "name": "central43festival",
   "version": "1.0.0",
-  "description": "CANAL43 festival : le rendez-vous musical du Champ de Mars - Lille, 14 et 15 décembre 2018",
+  "description": "CENTRAL43 festival : le rendez-vous musical du Champ de Mars - Lille, 14 et 15 décembre 2018",
   "author": "bturquet <baptiste.turquet@gmail.com>",
   "private": true,
   "scripts": {

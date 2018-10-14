@@ -41,13 +41,13 @@
       <v-toolbar-title v-text="title"></v-toolbar-title>
       <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">
-          <v-btn flat nuxt to="/">CANAL43</v-btn>
-          <v-btn flat nuxt to="/calendrier">Calendrier</v-btn>
-          <v-btn flat nuxt to="/programmation">Programmation</v-btn>
-          <v-btn flat nuxt to="/infos">Infos</v-btn>
-          <v-btn flat nuxt to="/billetterie">Billetterie</v-btn>
-          <v-btn flat nuxt to="/partenaires">Partenaires</v-btn>
-          <v-btn flat nuxt to="/contact">Contact</v-btn>
+          <v-btn color="primary" flat nuxt to="/">CANAL43</v-btn>
+          <v-btn color="primary" flat nuxt to="/calendrier">Calendrier</v-btn>
+          <v-btn color="primary" flat nuxt to="/programmation">Programmation</v-btn>
+          <v-btn color="primary" flat nuxt to="/infos">Infos</v-btn>
+          <v-btn color="primary" flat nuxt to="/billetterie">Billetterie</v-btn>
+          <v-btn color="primary" flat nuxt to="/partenaires">Partenaires</v-btn>
+          <v-btn color="primary" flat nuxt to="/contact">Contact</v-btn>
         </v-toolbar-items>
     </v-toolbar>
     <v-content>
@@ -56,7 +56,7 @@
       </v-container>
     </v-content>
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2018 CANAL43</span> - <v-icon>fa-facebook-square</v-icon> - <v-icon>fa-twitter-square</v-icon> - <v-icon>fa-instagram</v-icon>
+      <span>&copy; 2018 CANAL43</span> - <v-spacer></v-spacer><v-icon>fa-facebook-square</v-icon> - <v-icon>fa-twitter-square</v-icon> - <v-icon>fa-instagram</v-icon>
     </v-footer>
   </v-app>
 </template>

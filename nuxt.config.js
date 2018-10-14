@@ -4,11 +4,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'canal43_2',
+    title: 'CENTRAL43 FESTIVAL - Le rendez-vous musical du Champ de Mars de Lille, les 14 et 15 décembre.',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'canal43festival' }
+      { hid: 'description', name: 'description', content: 'CENTRAL43 FESTIVAL - Le rendez-vous musical du Champ de Mars de Lille, les 14 et 15 décembre.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

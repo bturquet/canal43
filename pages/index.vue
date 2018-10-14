@@ -10,7 +10,7 @@
         <v-container fill-height>
           <v-layout align-center>
             <v-flex>
-              <h3 class="display-3">CANAL43</h3>
+              <h3 class="display-3">CENTRAL43</h3>
 
               <span class="subheading">Le rendez-vous musical du Champ de Mars - Lille, les 14 et 15 décembre 2018.</span>
 
