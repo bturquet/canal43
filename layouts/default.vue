@@ -41,7 +41,7 @@
       <v-toolbar-title v-text="title"></v-toolbar-title>
       <v-spacer></v-spacer>
         <v-toolbar-items class="hidden-sm-and-down">
-          <v-btn color="primary" flat nuxt to="/">CANAL43</v-btn>
+          <v-btn color="primary" flat nuxt to="/">CENTRAL43</v-btn>
           <v-btn color="primary" flat nuxt to="/calendrier">Calendrier</v-btn>
           <v-btn color="primary" flat nuxt to="/programmation">Programmation</v-btn>
           <v-btn color="primary" flat nuxt to="/infos">Infos</v-btn>
@@ -56,7 +56,7 @@
       </v-container>
     </v-content>
     <v-footer :fixed="fixed" app>
-      <span>&copy; 2018 CANAL43</span> - <v-spacer></v-spacer><v-icon>fa-facebook-square</v-icon> - <v-icon>fa-twitter-square</v-icon> - <v-icon>fa-instagram</v-icon>
+      <span>&copy; 2018 CENTRAL43</span> - <v-spacer></v-spacer><v-icon>fa-facebook-square</v-icon> - <v-icon>fa-twitter-square</v-icon> - <v-icon>fa-instagram</v-icon>
     </v-footer>
   </v-app>
 </template>
@@ -69,7 +69,7 @@
         drawer: true,
         fixed: false,
         items: [
-          { icon: 'apps', title: 'CANAL43', to: '/' },
+          { icon: 'apps', title: 'CENTRAL43', to: '/' },
           { icon: 'calendar_today', title: 'Calendrier', to: '/calendrier' },
           { icon: 'view_list', title: 'Programmation', to: '/programmation' },
           { icon: 'info', title: 'Infos Pratiques', to: '/infos' },
@@ -80,7 +80,7 @@
         miniVariant: false,
         right: true,
         rightDrawer: false,
-        title: 'CANAL43'
+        title: 'CENTRAL43'
       }
     }
   }

@@ -3,7 +3,7 @@
     <v-flex xs12 sm8 md6>
       <div class="text-xs-center">
         <iframe width="620" height="315"
-          src="https://www.youtube.com/embed/dBNKhHGQTk0">
+          src="https://www.youtube.com/embed/R6EiqHh24-8">
         </iframe>
       </div>
       <v-jumbotron>
